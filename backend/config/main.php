@@ -37,6 +37,15 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'view' => [
+            'theme' => [
+                'basePath' => '@app/themes/adminLte',
+                'baseUrl' => '@web/themes/adminLte',
+                    'pathMap' => [
+                        '@app/views' => '@app/themes/adminLte'
+                     ]
+            ]
+        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
