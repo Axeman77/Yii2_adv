@@ -36,7 +36,7 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-/*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
@@ -44,7 +44,7 @@ return [
                         'task/<id>' => 'frontend/web/task/view',
             ],
         ],
-*/
+
     ],
     'params' => $params,
 ];
