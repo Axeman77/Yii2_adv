@@ -40,8 +40,8 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => ['calendar' => '/frontend/web/task/',
-                        'task/<id>' => 'frontend/web/task/view',
+            'rules' => ['calendar' => 'frontend/web/task/',
+                'task/<id>' => 'frontend/web/task/view',
             ],
         ],
 
