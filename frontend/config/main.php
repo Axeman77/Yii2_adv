@@ -37,14 +37,13 @@ return [
             'errorAction' => 'site/error',
         ],
 
-        'urlManager' => [
+            'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => ['calendar' => 'frontend/web/task/',
                 'task/<id>' => 'frontend/web/task/view',
             ],
         ],
-
     ],
     'params' => $params,
 ];
